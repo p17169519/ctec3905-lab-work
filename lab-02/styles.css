@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  background-color: CadetBlue;
+  flex-direction: column;
+  width: 15vw;
+  float: right;
+  /* box-sizing: border-box; */
+}
+
+nav a {
+  background-color: DarkGray;
+  color: DarkOliveGreen;
+  padding: 1em;
+  margin: 0.5em;
+  text-decoration: none;
+  transition: 2s;
+}
+
+nav a:hover {
+  background-color: DeepPink;
+}
+
+header {
+  background-color: ForestGreen;
+}
+
+main {
+  background-color: Gold;
+  width: 83vw;
+  /* box-sizing: border-box; */
+}
+
+header, main {
+  overflow: auto;
+}
+
+p {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+h1 {
+  text-align: center;
+}
