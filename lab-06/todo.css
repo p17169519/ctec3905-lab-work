@@ -23,6 +23,20 @@ h1 {
   margin: 0;
 }
 
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+input, button {
+  font-size: 1em;
+}
+
+button {
+  border: 1px solid var(--light);
+  background-color: var(--dark);
+  color: var(--light);
+}
 
 ul {
   list-style: none;
@@ -46,21 +60,6 @@ li:nth-child(odd) {
 
 label {
   flex-grow: 1;
-}
-
-section {
-  display: flex;
-  justify-content: space-between;
-}
-
-input, button {
-  font-size: 1em;
-}
-
-button {
-  border: 1px solid var(--light);
-  background-color: var(--dark);
-  color: var(--light);
 }
 
 input[type="checkbox"] {
